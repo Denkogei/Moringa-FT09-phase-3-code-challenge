@@ -66,5 +66,5 @@ def main():
     for article in articles:
         print(Article(article["id"], article["title"], article["content"], article["author_id"], article["magazine_id"]))
 
-if __name__ == "__main__":
+if __name__ == "_main_":
     main()
